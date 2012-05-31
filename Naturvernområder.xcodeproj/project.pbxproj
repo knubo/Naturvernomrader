@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FEE01961577FF020074ACCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE01951577FF020074ACCD /* UIKit.framework */; };
+		9FEE01981577FF020074ACCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE01971577FF020074ACCD /* Foundation.framework */; };
+		9FEE019A1577FF020074ACCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE01991577FF020074ACCD /* CoreGraphics.framework */; };
+		9FEE01A01577FF020074ACCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE019E1577FF020074ACCD /* InfoPlist.strings */; };
+		9FEE01A21577FF020074ACCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE01A11577FF020074ACCD /* main.m */; };
+		9FEE01A61577FF020074ACCD /* no_knuboAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE01A51577FF020074ACCD /* no_knuboAppDelegate.m */; };
+		9FEE01A91577FF020074ACCD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE01A71577FF020074ACCD /* MainStoryboard_iPhone.storyboard */; };
+		9FEE01AC1577FF020074ACCD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE01AA1577FF020074ACCD /* MainStoryboard_iPad.storyboard */; };
+		9FEE01AF1577FF020074ACCD /* no_knuboFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE01AE1577FF020074ACCD /* no_knuboFirstViewController.m */; };
+		9FEE01B11577FF020074ACCD /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE01B01577FF020074ACCD /* first.png */; };
+		9FEE01B31577FF020074ACCD /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE01B21577FF020074ACCD /* first@2x.png */; };
+		9FEE01B61577FF020074ACCD /* no_knuboSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE01B51577FF020074ACCD /* no_knuboSecondViewController.m */; };
+		9FEE01B81577FF020074ACCD /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE01B71577FF020074ACCD /* second.png */; };
+		9FEE01BA1577FF020074ACCD /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE01B91577FF020074ACCD /* second@2x.png */; };
+		9FEE01C21577FF020074ACCD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE01C11577FF020074ACCD /* SenTestingKit.framework */; };
+		9FEE01C31577FF020074ACCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE01951577FF020074ACCD /* UIKit.framework */; };
+		9FEE01C41577FF020074ACCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE01971577FF020074ACCD /* Foundation.framework */; };
+		9FEE01CC1577FF020074ACCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE01CA1577FF020074ACCD /* InfoPlist.strings */; };
+		9FEE01CF1577FF020074ACCD /* Naturvernomra_derTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE01CE1577FF020074ACCD /* Naturvernomra_derTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FEE01C51577FF020074ACCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FEE01881577FF010074ACCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FEE01901577FF020074ACCD;
+			remoteInfo = "Naturvernområder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FEE01911577FF020074ACCD /* Naturvernområder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Naturvernområder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEE01951577FF020074ACCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FEE01971577FF020074ACCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FEE01991577FF020074ACCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FEE019D1577FF020074ACCD /* Naturvernområder-Info.plist */ = {isa = PBXFileReference; path = "Naturvernområder-Info.plist"; sourceTree = "<group>"; };
+		9FEE019F1577FF020074ACCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FEE01A11577FF020074ACCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FEE01A31577FF020074ACCD /* Naturvernområder-Prefix.pch */ = {isa = PBXFileReference; path = "Naturvernområder-Prefix.pch"; sourceTree = "<group>"; };
+		9FEE01A41577FF020074ACCD /* no_knuboAppDelegate.h */ = {isa = PBXFileReference; path = no_knuboAppDelegate.h; sourceTree = "<group>"; };
+		9FEE01A51577FF020074ACCD /* no_knuboAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no_knuboAppDelegate.m; sourceTree = "<group>"; };
+		9FEE01A81577FF020074ACCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9FEE01AB1577FF020074ACCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9FEE01AD1577FF020074ACCD /* no_knuboFirstViewController.h */ = {isa = PBXFileReference; path = no_knuboFirstViewController.h; sourceTree = "<group>"; };
+		9FEE01AE1577FF020074ACCD /* no_knuboFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no_knuboFirstViewController.m; sourceTree = "<group>"; };
+		9FEE01B01577FF020074ACCD /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		9FEE01B21577FF020074ACCD /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9FEE01B41577FF020074ACCD /* no_knuboSecondViewController.h */ = {isa = PBXFileReference; path = no_knuboSecondViewController.h; sourceTree = "<group>"; };
+		9FEE01B51577FF020074ACCD /* no_knuboSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no_knuboSecondViewController.m; sourceTree = "<group>"; };
+		9FEE01B71577FF020074ACCD /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9FEE01B91577FF020074ACCD /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9FEE01C01577FF020074ACCD /* NaturvernområderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NaturvernområderTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEE01C11577FF020074ACCD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9FEE01C91577FF020074ACCD /* NaturvernområderTests-Info.plist */ = {isa = PBXFileReference; path = "NaturvernområderTests-Info.plist"; sourceTree = "<group>"; };
+		9FEE01CB1577FF020074ACCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FEE01CD1577FF020074ACCD /* Naturvernomra_derTests.h */ = {isa = PBXFileReference; path = Naturvernomra_derTests.h; sourceTree = "<group>"; };
+		9FEE01CE1577FF020074ACCD /* Naturvernomra_derTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Naturvernomra_derTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FEE018E1577FF020074ACCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEE01961577FF020074ACCD /* UIKit.framework in Frameworks */,
+				9FEE01981577FF020074ACCD /* Foundation.framework in Frameworks */,
+				9FEE019A1577FF020074ACCD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEE01BC1577FF020074ACCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEE01C21577FF020074ACCD /* SenTestingKit.framework in Frameworks */,
+				9FEE01C31577FF020074ACCD /* UIKit.framework in Frameworks */,
+				9FEE01C41577FF020074ACCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FEE01861577FF010074ACCD = {
+			isa = PBXGroup;
+			children = (
+				9FEE019B1577FF020074ACCD /* Naturvernområder */,
+				9FEE01C71577FF020074ACCD /* NaturvernområderTests */,
+				9FEE01941577FF020074ACCD /* Frameworks */,
+				9FEE01921577FF020074ACCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FEE01921577FF020074ACCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE01911577FF020074ACCD /* Naturvernområder.app */,
+				9FEE01C01577FF020074ACCD /* NaturvernområderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FEE01941577FF020074ACCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE01951577FF020074ACCD /* UIKit.framework */,
+				9FEE01971577FF020074ACCD /* Foundation.framework */,
+				9FEE01991577FF020074ACCD /* CoreGraphics.framework */,
+				9FEE01C11577FF020074ACCD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FEE019B1577FF020074ACCD /* Naturvernområder */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE01A41577FF020074ACCD /* no_knuboAppDelegate.h */,
+				9FEE01A51577FF020074ACCD /* no_knuboAppDelegate.m */,
+				9FEE01A71577FF020074ACCD /* MainStoryboard_iPhone.storyboard */,
+				9FEE01AA1577FF020074ACCD /* MainStoryboard_iPad.storyboard */,
+				9FEE01AD1577FF020074ACCD /* no_knuboFirstViewController.h */,
+				9FEE01AE1577FF020074ACCD /* no_knuboFirstViewController.m */,
+				9FEE01B01577FF020074ACCD /* first.png */,
+				9FEE01B21577FF020074ACCD /* first@2x.png */,
+				9FEE01B41577FF020074ACCD /* no_knuboSecondViewController.h */,
+				9FEE01B51577FF020074ACCD /* no_knuboSecondViewController.m */,
+				9FEE01B71577FF020074ACCD /* second.png */,
+				9FEE01B91577FF020074ACCD /* second@2x.png */,
+				9FEE019C1577FF020074ACCD /* Supporting Files */,
+			);
+			path = "Naturvernområder";
+			sourceTree = "<group>";
+		};
+		9FEE019C1577FF020074ACCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE019D1577FF020074ACCD /* Naturvernområder-Info.plist */,
+				9FEE019E1577FF020074ACCD /* InfoPlist.strings */,
+				9FEE01A11577FF020074ACCD /* main.m */,
+				9FEE01A31577FF020074ACCD /* Naturvernområder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FEE01C71577FF020074ACCD /* NaturvernområderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE01CD1577FF020074ACCD /* Naturvernomra_derTests.h */,
+				9FEE01CE1577FF020074ACCD /* Naturvernomra_derTests.m */,
+				9FEE01C81577FF020074ACCD /* Supporting Files */,
+			);
+			path = "NaturvernområderTests";
+			sourceTree = "<group>";
+		};
+		9FEE01C81577FF020074ACCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE01C91577FF020074ACCD /* NaturvernområderTests-Info.plist */,
+				9FEE01CA1577FF020074ACCD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FEE01901577FF020074ACCD /* Naturvernområder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEE01D21577FF020074ACCD /* Build configuration list for PBXNativeTarget "Naturvernområder" */;
+			buildPhases = (
+				9FEE018D1577FF020074ACCD /* Sources */,
+				9FEE018E1577FF020074ACCD /* Frameworks */,
+				9FEE018F1577FF020074ACCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Naturvernområder";
+			productName = "Naturvernområder";
+			productReference = 9FEE01911577FF020074ACCD /* Naturvernområder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FEE01BF1577FF020074ACCD /* NaturvernområderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEE01D51577FF020074ACCD /* Build configuration list for PBXNativeTarget "NaturvernområderTests" */;
+			buildPhases = (
+				9FEE01BB1577FF020074ACCD /* Sources */,
+				9FEE01BC1577FF020074ACCD /* Frameworks */,
+				9FEE01BD1577FF020074ACCD /* Resources */,
+				9FEE01BE1577FF020074ACCD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FEE01C61577FF020074ACCD /* PBXTargetDependency */,
+			);
+			name = "NaturvernområderTests";
+			productName = "NaturvernområderTests";
+			productReference = 9FEE01C01577FF020074ACCD /* NaturvernområderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FEE01881577FF010074ACCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = no.knubo;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9FEE018B1577FF010074ACCD /* Build configuration list for PBXProject "Naturvernområder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FEE01861577FF010074ACCD;
+			productRefGroup = 9FEE01921577FF020074ACCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FEE01901577FF020074ACCD /* Naturvernområder */,
+				9FEE01BF1577FF020074ACCD /* NaturvernområderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FEE018F1577FF020074ACCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEE01A01577FF020074ACCD /* InfoPlist.strings in Resources */,
+				9FEE01A91577FF020074ACCD /* MainStoryboard_iPhone.storyboard in Resources */,
+				9FEE01AC1577FF020074ACCD /* MainStoryboard_iPad.storyboard in Resources */,
+				9FEE01B11577FF020074ACCD /* first.png in Resources */,
+				9FEE01B31577FF020074ACCD /* first@2x.png in Resources */,
+				9FEE01B81577FF020074ACCD /* second.png in Resources */,
+				9FEE01BA1577FF020074ACCD /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEE01BD1577FF020074ACCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEE01CC1577FF020074ACCD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FEE01BE1577FF020074ACCD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FEE018D1577FF020074ACCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEE01A21577FF020074ACCD /* main.m in Sources */,
+				9FEE01A61577FF020074ACCD /* no_knuboAppDelegate.m in Sources */,
+				9FEE01AF1577FF020074ACCD /* no_knuboFirstViewController.m in Sources */,
+				9FEE01B61577FF020074ACCD /* no_knuboSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEE01BB1577FF020074ACCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEE01CF1577FF020074ACCD /* Naturvernomra_derTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FEE01C61577FF020074ACCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FEE01901577FF020074ACCD /* Naturvernområder */;
+			targetProxy = 9FEE01C51577FF020074ACCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FEE019E1577FF020074ACCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEE019F1577FF020074ACCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FEE01A71577FF020074ACCD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEE01A81577FF020074ACCD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9FEE01AA1577FF020074ACCD /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEE01AB1577FF020074ACCD /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9FEE01CA1577FF020074ACCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEE01CB1577FF020074ACCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FEE01D01577FF020074ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FEE01D11577FF020074ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FEE01D31577FF020074ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Naturvernområder/Naturvernområder-Prefix.pch";
+				INFOPLIST_FILE = "Naturvernområder/Naturvernområder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FEE01D41577FF020074ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Naturvernområder/Naturvernområder-Prefix.pch";
+				INFOPLIST_FILE = "Naturvernområder/Naturvernområder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9FEE01D61577FF020074ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Naturvernområder.app/Naturvernområder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Naturvernområder/Naturvernområder-Prefix.pch";
+				INFOPLIST_FILE = "NaturvernområderTests/NaturvernområderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9FEE01D71577FF020074ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Naturvernområder.app/Naturvernområder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Naturvernområder/Naturvernområder-Prefix.pch";
+				INFOPLIST_FILE = "NaturvernområderTests/NaturvernområderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FEE018B1577FF010074ACCD /* Build configuration list for PBXProject "Naturvernområder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEE01D01577FF020074ACCD /* Debug */,
+				9FEE01D11577FF020074ACCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEE01D21577FF020074ACCD /* Build configuration list for PBXNativeTarget "Naturvernområder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEE01D31577FF020074ACCD /* Debug */,
+				9FEE01D41577FF020074ACCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FEE01D51577FF020074ACCD /* Build configuration list for PBXNativeTarget "NaturvernområderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEE01D61577FF020074ACCD /* Debug */,
+				9FEE01D71577FF020074ACCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FEE01881577FF010074ACCD /* Project object */;
+}
