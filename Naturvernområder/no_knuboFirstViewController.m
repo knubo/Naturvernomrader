@@ -7,7 +7,7 @@
 //
 
 #import "no_knuboFirstViewController.h"
-
+#import "Shapefile.h"
 @interface no_knuboFirstViewController ()
 
 @end
@@ -18,6 +18,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSString *shapePath = [[NSBundle mainBundle] pathForResource:@"naturvern_simple" ofType:@"shp"];	
+    
+    Shapefile *shapefile = [[Shapefile alloc] init];
+	
+	//[myView setNeedsDisplay:YES];
+	BOOL bLoad = [shapefile loadShapefile:shapePath];
+	
+	if(bLoad)
+	{
+//		long nShapefileType = [shapefile shapefileType];
+		
+        //		if(nShapefileType == kShapeTypePoint)
+        //			[self.mapView addAnnotations:shapefile.objects];
+        
+        NSLog( @"Count: %d", [[shapefile objects] count]);
+        
+    }
+
 }
 
 - (void)viewDidUnload
